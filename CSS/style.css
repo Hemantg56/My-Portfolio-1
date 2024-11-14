@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 750px;
+    /* background: lightblue; */
+    padding: 0 70px;
+    position: relative;
+}
+
+.main::after {
+    content: "HEMANT GADAGI";
+    font-size: 4.6rem;
+    color: rgb(231, 231, 231);
+    font-family: arial, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -17px;
+    left: 70px;
+}
+
+.main .header {
+    /* height: 100px; */
+    /* background: lightcoral; */
+    display: flex;
+}
+
+.main .header .logo {
+    height: 100px;
+    width: 50%;
+    padding-top: 5px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    margin-left: 5px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .header .nav {
+    height: 100px;
+    width: 50%;
+    text-align: right;
+    line-height: 120px;
+    /* border: 1px solid; */
+}
+
+.header .hub .down {
+    list-style: none;
+    display: inline;
+    margin: 0 30px 0 20px;
+}
+
+.hub .down a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.down a:hover {
+    color: red;
+}
+
+.main .contact {
+    height: 500px;
+    /* background: lightgreen; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+}
+
+.contact .my_contact {
+    /* border: 2px solid; */
+    padding-top: 110px;
+}
+
+.my_contact .name_box {
+    height: 330px;
+    /* border: 1px solid; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #343d68;
+}
+
+.my_contact .name_box .name {
+    font-size: 2rem;
+}
+
+.my_contact .name_box .animation_lebal {
+    font-size: 2.6rem;
+    margin: 30px 0 45px 0;
+}
+
+.my_contact .name_box .definesion {
+    font-size: 14px;
+    color: #000;
+}
+
+.my_contact .name_box .hire {
+    height: 60px;
+    width: 150px;
+    margin-top: 50px;
+    border: 4px solid #e84949;
+    border-radius: none;
+    background: #fff;
+    box-shadow: 3px 3px 10px #333333;
+    color: #fff;
+    font-size: 18px;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.my_contact .name_box .hire::before {
+    content: "";
+    height: 60px;
+    width: 150px;
+    background: #e84949;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+}
+
+.name_box .hire:hover {
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.name_box .hire:hover::before {
+    left: 100%;
+}
+
+.contact .my_pic {
+    position: relative;
+}
+
+.my_pic .ani_zigzags {
+    position: absolute;
+    top: 17%;
+    left: 33%;
+    z-index: 1;
+    animation: zigzags 5s linear infinite;
+}
+
+.my_pic .ani_cube {
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    z-index: 1;
+    animation: cube 2s linear infinite;
+}
+
+.my_pic .ani_circle {
+    position: absolute;
+    bottom: 0%;
+    left: 33.5%;
+    z-index: 1;
+    animation: circle 2s linear infinite;
+}
+
+.my_pic .ani_dots {
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+    z-index: 1;
+    animation: dots 5s linear infinite;
+    visibility: visible;
+}
+
+.my_pic .ani_plus {
+    position: absolute;
+    top: 8%;
+    right: 25%;
+    z-index: 1;
+    animation: plus 5s linear infinite;
+}
+
+.contact .my_pic .photo_div {
+    height: 450px;
+    width: 400px;
+    margin: 50px 0 0 200px;
+    /* border: 1px solid; */
+    padding: 50px;
+    animation: scale 5s linear infinite;
+}
+
+.contact .my_pic .photo_div img {
+    object-fit: cover;
+}
+
+.project_tag {
+    /* height: 1500px; */
+    background: rgb(231, 231, 231);
+    padding: 70px;
+}
+
+.project_tag .project_heading {
+    color: #e84949;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.blue {
+    color: #343d68;
+}
+
+.project_tag .project_farming {
+    height: 550px;
+    width: 90%;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Img/project/Agriculture-Farming-Project.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0;
+    padding: 140px 120px 0 120px;
+    position: relative;
+    z-index: 0;
+}
+
+.project_tag .p2 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Img/project/Oakberry-Real-Estate-Agency.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.project_tag .project_farming::after {
+    content: "";
+    height: 550px;
+    width: 0;
+    background-color: #3f47804f;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: .7s;
+    z-index: -1;
+}
+
+.project_tag .project_farming:hover::after {
+    width: 100%;
+}
+
+.project_tag .project_farming::before {
+    content: "01";
+    font-size: 13rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    position: absolute;
+    top: -45px;
+    right: -65px;
+    display: none;
+    transition: .7s;
+}
+
+.project_tag .p2::before {
+    content: "02";
+    top: -45px;
+    right: -65px;
+}
+
+.project_tag .project_farming:hover::before {
+    display: block;
+}
+
+.project_farming .project_requid {
+    height: 330px;
+    width: 100%;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    transition: .7s;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.project_farming:hover .project_requid {
+    transform: scale(1.1);
+}
+
+.project_requid .skill_icon {
+    height: 70px;
+    /* border: 2px solid blue; */
+}
+
+.project_requid .project_name {
+    font-size: 3.2rem;
+    padding: 20px 0;
+}
+
+.project_requid .project_defination {
+    font-style: italic;
+}
+
+.project_requid .project_link {
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    border: 3px solid #e84949;
+    border-radius: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    transition: .6s;
+}
+
+.project_requid .project_link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .7s;
+}
+
+.project_requid .project_link::before {
+    content: "";
+    height: 70px;
+    width: 150px;
+    background: #e84949;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .7s;
+}
+
+.project_requid .project_link:hover {
+    letter-spacing: 2px;
+}
+
+.project_requid .project_link:hover a {
+    color: #000;
+}
+
+.project_requid .project_link:hover::before {
+    left: 100%;
+}
+
+.skill_tag {
+    /* height: 700px; */
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+    padding: 50px 0;
+    /* text-align: center; */
+}
+
+.skill_tag .skill_heading {
+    color: #e84949;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.skill_tag .skills {
+    /* height: 460px; */
+    width: 1070px;
+    /* border: 2px solid; */
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px;
+    gap: 15px;
+}
+
+.skill_tag .skills .s1 {
+    background: #fff;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px grey;
+}
+
+.contact_tag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.contact_tag .contact_add {
+    background: #2e4975;
+    padding: 80px 0 0 130px;
+    color: #f8f5f5;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_headding {
+    color: #ffff;
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+}
+
+.contact_headding .blue {
+    color: #e84949;
+}
+
+.contact_tag .contact_add .mb {
+    margin-bottom: 15px;
+}
+
+.contact_add .me {
+    width: 70%;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.contact_tag .contact_input {
+    background: #bbc8dd;
+    padding: 80px 40px 0 40px;
+}
+
+.contact_input .contact_headding {
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.contact_input .inp_name {
+    height: 45px;
+    width: 90%;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: 0 0 20px gray;
+    font-size: 1.1rem;
+    padding-left: 25px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.contact_input .mas {
+    height: 100px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.contact_input a {
+    text-decoration: none;
+}
+
+.contact_input a .send {
+    height: 50px;
+    width: 250px;
+    /* margin-top: 50px; */
+    border: 4px solid #e84949;
+    border-radius: none;
+    background: #fff;
+    box-shadow: 3px 3px 10px #333333;
+    color: #fff;
+    font-size: 18px;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact_input .send::before {
+    content: "";
+    height: 60px;
+    width: 250px;
+    background: #e84949;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+}
+
+.contact_input .send i {
+    margin-left: 10px;
+}
+
+.contact_input .send:hover {
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.contact_input .send:hover::before {
+    left: 100%;
+}
+
+.footer {
+    background: #edf4ffd7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .d {
+    padding: 70px 70px 0 70px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer a .resume {
+    height: 50px;
+    width: 60%;
+    border: 1px solid;
+    margin-left: 110px;
+}
+
+.footer .info {
+    margin-left: 70px;
+}
+
+.footer .social {
+    display: grid;
+    place-items: center;
+}
+
+.footer .social .social_i {
+    /* height: 40px; */
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social .social_i .h {
+    height: 40px;
+    width: 40px;
+    background: #000;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #fff;
+    /* text-align: center; */
+    line-height: 40px;
+}
+
+.footer .follow {
+    margin-top: -30px;
+}
+
+.footer .up {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #343d68;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    color: #343d68;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden {
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer .up:hover {
+    background-color: #343d68;
+    color: #fff;
+}

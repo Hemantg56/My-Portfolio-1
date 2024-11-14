@@ -1,0 +1,453 @@
+@media (max-width:992px) {
+    .main {
+        height: 680px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 3rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .header .hub .down {
+        margin: 0 20px 0 0px;
+    }
+    .main .contact {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 500px;
+    }
+    .contact .my_contact .name_box {
+        color: #000;
+        width: 100%;
+    }
+    .my_contact .name_box .name {
+        font-size: 1.7rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 2.2rem;
+        margin: 25px 0 30px 0;
+    }
+    .my_contact .name_box .definesion {
+        font-size: 14px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 40px;
+    }
+    .contact .my_pic .photo_div {
+        margin: 25px 0 0 40px;
+    }
+    .my_pic .ani_zigzags {
+        top: 12%;
+        left: 9%;
+    }
+    .my_pic .ani_cube {
+        top: 1%;
+        right: 11%;
+    }
+    .my_pic .ani_circle {
+        bottom: 5%;
+        left: 8.5%;
+    }
+    .my_pic .ani_dots {
+        bottom: 4%;
+        right: 5%;
+    }
+    .my_pic .ani_plus {
+        top: 3%;
+        right: 35%;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2.7rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .project_farming .project_requid {
+        margin-top: 60px;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 350px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.8);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(0.9);
+    }
+    .project_requid .skill_icon {
+        height: 50px;
+    }
+    .project_requid .skill_icon img {
+        width: 50px;
+    }
+    .project_requid .project_name {
+        font-size: 2.5rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2.7rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 4.5fr 5.5fr;
+        grid-template-rows: 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 5%;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 90%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media (max-width:768px) {
+    .main {
+        height: 730px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 2.6rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .header .hub .down {
+        margin: 0 20px 0 0px;
+    }
+    .contact .my_pic {
+        display: none;
+    }
+    .main .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 550px;
+    }
+    .contact .my_contact {
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Img/my-pic/IMG_20220621_180107_498.jpg);
+        background-size: cover;
+        /* background-position: center; */
+        padding-left: 5px;
+    }
+    .contact .my_contact .name_box {
+        margin-top: 190px;
+    }
+    .my_contact .name_box .name {
+        color: #fff;
+        font-size: 2rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 2.5rem;
+        color: #fff;
+        margin: 15px 0 20px 0;
+    }
+    .my_contact .name_box .definesion {
+        color: #fff;
+        font-size: 14px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 20px;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2.7rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .project_farming .project_requid {
+        margin-top: 60px;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 350px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.8);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(0.9);
+    }
+    .project_requid .skill_icon {
+        height: 50px;
+    }
+    .project_requid .skill_icon img {
+        width: 50px;
+    }
+    .project_requid .project_name {
+        font-size: 2.5rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2.7rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 1fr;
+        grid-template-rows: 370px 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 20%;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px auto;
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media (max-width:600px) {
+    .main {
+        height: 720px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 2.4rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .main .header .logo {
+        width: 100%;
+    }
+    .main .header .nav {
+        display: none;
+    }
+    .contact .my_pic {
+        display: none;
+    }
+    .main .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 520px;
+    }
+    .contact .my_contact {
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Img/my-pic/IMG_20220621_180107_498.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 5px;
+    }
+    .contact .my_contact .name_box {
+        margin-top: 160px;
+    }
+    .my_contact .name_box .name {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 1.8rem;
+        color: #fff;
+        margin: 15px 0 20px 0;
+    }
+    .my_contact .name_box .definesion {
+        color: #fff;
+        font-size: 10px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 20px;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 300px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_tag .p2::before {
+        top: 0px;
+        left: 0px;
+    }
+    .project_tag .project_farming:hover::before {
+        display: none;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.6);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(.7);
+    }
+    .project_requid .skill_icon {
+        height: 30px;
+    }
+    .project_requid .skill_icon img {
+        width: 30px;
+    }
+    .project_requid .project_name {
+        font-size: 2rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 20px;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px auto;
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
